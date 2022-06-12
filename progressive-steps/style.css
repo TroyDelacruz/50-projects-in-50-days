@@ -35,7 +35,7 @@ body {
 
 .progress-container:before {
     content: '';
-    background-color: var(--line-border-fill);
+    background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
     left: 0;
@@ -87,7 +87,7 @@ circle.active {
 }
 
 .btn:active {
-    transform: sale(0.98);
+    transform: scale(0.98);
 }
 
 .btn:focus {
